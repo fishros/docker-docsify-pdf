@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint src --fix",
-    "dev": "DEBUG_HEADLESS=true nodemon --watch src/ index",
+    "dev": "DEBUG_HEADLESS=true node index",
     "test": "node index"
   },
   "engines": {
